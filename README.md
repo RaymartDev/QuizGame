@@ -30,4 +30,31 @@ In the last part or the hardest part, the passing score is 75% of the answered q
 
 ### **Developer API**
 
-* [_API_](https://github.com/RaymartDev/QuizGame/wiki/API)
+## Developer API
+
+### **Creating a Quiz Object**
+
+```java
+public class YourQuiz extends AbstractQuiz {
+    
+   /**
+     * @param questions collections of questions object
+     * @param scanner the scanner object
+     * @param passingPercentage the passing percentage
+     * @param difficulty the difficulty level
+     * @param timeLimit the time limit in seconds
+     */
+   public Hard(List<Question> questions, Scanner scanner, int passingPercentage,
+      Difficulty difficulty, long timeLimit) {
+        super(questions, scanner, passingPercentage, difficulty, timeLimit);
+    }
+}
+```
+
+### **Creating a Question Object**
+```java
+ Question question1 = Question.builder()
+                .question("What is the one thing that all wise men, regardless of their religion or politics,
+                    agree is between heaven and earth? What is it?")
+                .choices(new String[] {"The Word \"And\"", "The Word \"Or\"", "The Word \"Cool\""})
+                .answer('a').build();```
