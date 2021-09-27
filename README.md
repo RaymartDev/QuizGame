@@ -54,5 +54,7 @@ public class YourQuiz extends AbstractQuiz {
  Question question1 = Question.builder()
                 .question("What is the one thing that all wise men, regardless of their religion or politics,
                     agree is between heaven and earth? What is it?")
-                .choices(new String[] {"The Word \"And\"", "The Word \"Or\"", "The Word \"Cool\""})
-                .answer('a').build();```
+                .choices(new String[] {"The Word \"And\"", "The Word \"Or\"",
+                    "The Word \"Cool\""})
+                .answer('a')
+                .build();```
