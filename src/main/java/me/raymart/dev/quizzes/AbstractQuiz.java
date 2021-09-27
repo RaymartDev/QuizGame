@@ -15,17 +15,13 @@ public abstract class AbstractQuiz {
     private final int passingPercentage;
     private final Difficulty difficulty;
     private final long timeLimit;
+
     public AbstractQuiz(List<Question> questions, Scanner scanner, int passingPercentage, Difficulty difficulty, long timeLimit) {
         this.questions = questions;
         this.scanner = scanner;
         this.passingPercentage = passingPercentage;
         this.difficulty = difficulty;
         this.timeLimit = timeLimit == -1 ? -1 : System.currentTimeMillis() + (timeLimit * 1000);
-    }
-
-
-    public List<Question> getQuestions() {
-        return questions;
     }
 
     public void compute() {
