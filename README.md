@@ -42,7 +42,7 @@ public class YourQuiz extends AbstractQuiz {
      * @param difficulty the difficulty level
      * @param timeLimit the time limit in seconds
      */
-   public Hard(List<Question> questions, Scanner scanner, int passingPercentage,
+   public YourQuiz(List<Question> questions, Scanner scanner, int passingPercentage,
       Difficulty difficulty, long timeLimit) {
         super(questions, scanner, passingPercentage, difficulty, timeLimit);
     }
