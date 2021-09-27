@@ -52,7 +52,8 @@ public class YourQuiz extends AbstractQuiz {
 ### **Creating a Question Object**
 ```java
  Question question1 = Question.builder()
-                .question("What is the one thing that all wise men, regardless of their religion or politics,
+                .question("What is the one thing that all wise men, 
+                    regardless of their religion or politics,
                     agree is between heaven and earth? What is it?")
                 .choices(new String[] {"The Word \"And\"", "The Word \"Or\"",
                     "The Word \"Cool\""})
