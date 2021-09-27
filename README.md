@@ -2,7 +2,7 @@
 
 A simple quiz game that will practice your brain.
 
-# Description
+## Description
 
 First, this quiz technically have 3 difficulties consisting:
 
@@ -12,18 +12,22 @@ First, this quiz technically have 3 difficulties consisting:
 
 Here are the differences ( questions are not segregated in terms of difficulty since this is just a prototype )
 
-# Easy
+### **Easy**
 
 In easy the passing score is 30% of the answered questions are correct and no time limit.
 
-# Medium
+### **Medium**
 
 In medium the passing score is 50% of the answered questions are correct and has 2 minutes time limit.
 
-# Hard
+### **Hard**
 
 In the last part or the hardest part, the passing score is 75% of the answered questions are correct and has 1 minute time limit.
 
-# Calculation
+### **Calculation**
 
 (Correct Answers / Answered Questions) x 100 = percentage of the correct answers.
+
+### **Developer API**
+
+* [_API_](https://github.com/RaymartDev/QuizGame/wiki/API)
