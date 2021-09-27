@@ -28,8 +28,6 @@ In the last part or the hardest part, the passing score is 75% of the answered q
 
 (Correct Answers / Answered Questions) x 100 = percentage of the correct answers.
 
-### **Developer API**
-
 ## Developer API
 
 ### **Creating a Quiz Object**
